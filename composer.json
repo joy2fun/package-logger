@@ -1,0 +1,19 @@
+{
+    "name": "joy2fun/package-logger",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "require-dev": {
+        "composer/composer": "^1.1"
+    },
+    "autoload": {
+        "psr-4": { "PackageLogger\\": "src/PackageLogger" }
+    },
+    "extra": {
+        "class": "PackageLogger\\Plugin",
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
